@@ -1,0 +1,93 @@
+$cream: #faefc5;
+$blue: #328BD0;
+$baby-blue: #6BC4FF;
+$grey: #ACBDD6;
+body {
+  background: #fff;
+  width: 100%;
+  color: #000;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+div#header {
+  border-bottom: 1px solid #000;
+  h1 {
+   width: 960px; 
+   font-weight: 900;
+   font-size: 32px;
+   margin: 70px auto 20px auto;
+   margin-bottom: 0px;
+   span {
+     font-size: 14px;
+   }
+  }
+}
+
+div#container{
+ width: 960px; 
+ margin: 20px auto;
+}
+div.cream {
+  float: left;
+  background-color: $cream;
+  padding: 30px;
+  padding-bottom: 80px;
+  text-align: justify;
+  line-height: 24px;
+  width: 480px;
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+span.blue {
+  background-color: $blue;
+  color: #fff;
+  padding: 1px 2px;
+}
+div.action{
+  margin-top: 115px;
+  float: left;
+  width: 330px;
+  margin-left: 20px;
+  h2 {
+   color: $blue;
+   font-size: 26px;
+   line-height: 30px;
+   margin-bottom: 16px;
+   font-weight: bold;
+  }
+  h4 {
+   color: #000;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 23px;
+  }
+  .actions {
+    margin-top: 75px;
+  }
+}
+div.arrow {
+  width: 0;
+  height: 0;
+}
+div.arrow-right {
+  margin-top: 120px;
+  float: left;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid $cream;
+}
+.button {
+  padding: 20px 30px;
+  color: #000;
+  text-decoration: none;
+}
+.button.active {
+  background-color: $baby-blue;
+  @include shadow($grey);
+}
+

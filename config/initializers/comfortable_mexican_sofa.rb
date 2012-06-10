@@ -59,7 +59,7 @@ ComfortableMexicanSofa.configure do |config|
   # Content for Layouts, Pages and Snippets has a revision history. You can revert
   # a previous version using this system. You can control how many revisions per
   # object you want to keep. Set it to 0 if you wish to turn this feature off.
-  #   config.revisions_limit = 25
+  config.revisions_limit = 10
   
   # Locale definitions. If you want to define your own locale merge
   # {:locale => 'Locale Title'} with this.
@@ -101,8 +101,8 @@ end
 
 # Default credentials for ComfortableMexicanSofa::HttpAuth
 # YOU REALLY WANT TO CHANGE THIS BEFORE PUTTING YOUR SITE LIVE
-ComfortableMexicanSofa::HttpAuth.username = 'username'
-ComfortableMexicanSofa::HttpAuth.password = 'password'
+ComfortableMexicanSofa::HttpAuth.username = 'gmina'
+ComfortableMexicanSofa::HttpAuth.password = 'gmina'
 
 # If you need to inject some html in cms admin views you can define what partial
 # should be rendered into the following areas:
