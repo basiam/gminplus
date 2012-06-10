@@ -29,6 +29,7 @@ div#container{
  margin: 20px auto;
 }
 div.cream {
+  margin-top: 42px;
   float: left;
   background-color: $cream;
   padding: 30px;
@@ -85,9 +86,14 @@ div.arrow-right {
   padding: 20px 30px;
   color: #000;
   text-decoration: none;
+  @include border-radius(5px); 
 }
 .button.active {
   background-color: $baby-blue;
-  @include shadow($grey);
+  @include box-shadow($grey 2px 2px 2px, $grey -2px 2px 2px, $grey 2px -2px 2px, $grey -2px -2px 2px);
+}
+.button.inactive {
+  font-size: 12px;
+  margin-left: 50px;
 }
 

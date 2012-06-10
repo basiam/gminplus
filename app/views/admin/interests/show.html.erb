@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ip:</b>
+  <%= @interest.ip %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @interest.email %>
+</p>
+
+<p>
+  <b>Zamieszkanie:</b>
+  <%= @interest.zamieszkanie %>
+</p>
+
+<p>
+  <b>Zameldowanie:</b>
+  <%= @interest.zameldowanie %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_interest_path(@interest) %> |
+<%= link_to 'Back', admin_interests_path %>

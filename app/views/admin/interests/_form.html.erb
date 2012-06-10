@@ -1,0 +1,33 @@
+<%= form_for([:admin, @interest]) do |f| %>
+  <% if @interest.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@interest.errors.count, "error") %> prohibited this interest from being saved:</h2>
+
+      <ul>
+      <% @interest.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ip %><br />
+    <%= f.text_field :ip %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :zamieszkanie %><br />
+    <%= f.text_field :zamieszkanie %>
+  </div>
+  <div class="field">
+    <%= f.label :zameldowanie %><br />
+    <%= f.text_field :zameldowanie %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

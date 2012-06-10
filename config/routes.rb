@@ -1,4 +1,10 @@
 Gmina::Application.routes.draw do
+  resources :interests, only: [:new, :create]
+  namespace :admin do
+    resources :interests
+  end
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

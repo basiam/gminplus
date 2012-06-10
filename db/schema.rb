@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120610140559) do
+ActiveRecord::Schema.define(:version => 20120610221105) do
 
   create_table "cms_blocks", :force => true do |t|
     t.integer  "page_id",    :null => false
@@ -129,5 +129,14 @@ ActiveRecord::Schema.define(:version => 20120610140559) do
 
   add_index "cms_snippets", ["site_id", "identifier"], :name => "index_cms_snippets_on_site_id_and_identifier", :unique => true
   add_index "cms_snippets", ["site_id", "position"], :name => "index_cms_snippets_on_site_id_and_position"
+
+  create_table "interests", :force => true do |t|
+    t.string   "ip"
+    t.string   "email"
+    t.string   "zamieszkanie"
+    t.string   "zameldowanie"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
 end

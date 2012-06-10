@@ -131,11 +131,10 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   comfortable_mexican_sofa!
-  compass (~> 0.12.rc.2)
-  compass-rails (~> 1.0.2)
+  compass-rails (= 1.0.2)
   jquery-rails
   pg
   rails (= 3.2.3)
-  sass-rails (~> 3.2.3)
+  sass-rails (~> 3.2.5)
   sqlite3
   uglifier (>= 1.0.3)

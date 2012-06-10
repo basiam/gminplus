@@ -1,0 +1,28 @@
+<h1>Listing interests</h1>
+
+<table>
+  <tr>
+    <th>Ip</th>
+    <th>Email</th>
+    <th>Zamieszkanie</th>
+    <th>Zameldowanie</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @interests.each do |interest| %>
+  <tr>
+    <td><%= interest.ip %></td>
+    <td><%= interest.email %></td>
+    <td><%= interest.zamieszkanie %></td>
+    <td><%= interest.zameldowanie %></td>
+    <td><%= link_to 'Show', [:admin, interest] %></td>
+    <td><%= link_to 'Edit', edit_admin_interest_path(interest) %></td>
+    <td><%= link_to 'Destroy', [:admin, interest], confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
