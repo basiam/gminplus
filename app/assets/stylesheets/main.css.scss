@@ -87,7 +87,7 @@ div.arrow-right {
 div.arrow-top {
   margin-top: 0px;
   float: right;
-  margin-right: 20px;
+  margin-right: 40px;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   border-bottom: 30px solid $cream;
@@ -116,6 +116,8 @@ div.arrow-top {
   clear: both;
 }
 #superform {
+  display: none;
+  margin-bottom: 140px;
   h4 {
     margin-left: 8px;
     margin-top: 10px;
@@ -155,18 +157,12 @@ div.arrow-top {
       margin-left: 35px;
     }
   }
-  #socialbox {
-    margin-top: 140px;
-    float: right;
-  }
 }
 
 #socialbox {
   a {
     text-decoration: none;
     margin-left: 25px;
+    float: right;
   }
-}
-#superform {
-  display: none;
 }
