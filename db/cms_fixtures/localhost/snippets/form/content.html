@@ -1,13 +1,30 @@
 <div id="superform">
-<h2>Super, bardzo się cieszymy że chcesz się
-  przyłączyć do inicjatywy :-)!</h2>
-  <div class="arrow arrow-top">&nbsp</div> 
-  <form action="/interests" method="post">
+  <div class="first">
+    <h2>
+      Super, bardzo się cieszymy że chcesz się przyłączyć do inicjatywy :-)!
+    </h2> 
+    <div class="arrow arrow-top">&nbsp</div> 
+    <form action="/interests" method="post">
        <h3>Powiedz nam proszę, które gminy Cię interesują</h3>
-      <input type="text" required name="interests[zamieszkania]" placeholder="gmina zamieszkania"/>
-      <input type="text" required name="interests[zameldowania]" placeholder="gmina zameldowania"/>
-      <input type="submit" name="submit" class="button active" value="Wysyłam"/>
-  </form>
+       <input type="text" required name="interests[zamieszkania]"  placeholder="gmina zamieszkania"/>
+       <input type="text" required name="interests[zameldowania]" placeholder="gmina zameldowania"/>
+       <input type="submit" name="submit" class="button active" value="Wysyłam"/>
+    </form>
+  </div>
+  <div class="second">
+    <h2>
+      Dziękujemy!
+    </h2> 
+    <h4>
+      Ta informacja napewno pomoże lepiej przygotować dla Was serwis internetowy Gmin Puls.
+    </h4>
+    <div class="arrow arrow-top">&nbsp</div> 
+    <form action="/interests" method="post">
+       <h3>Czy chesz być poinformowany o rozwinieńciu tego projektu?</h3>
+       <input type="email" required name="interests[email]"  placeholder="wpisz swój e-mail"/>  
+       <input type="submit" name="submit" class="button active" value="Tak, powiadom mnie"/>
+    </form>
+  </div>
   {{ cms:snippet:social}}
 </div>
 
