@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 gem 'comfortable_mexican_sofa', git: 'git://github.com/comfy/comfortable-mexican-sofa.git'
 gem 'jquery-rails'
+gem 'psych'
 
 
 group :development, :test do

@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 ComfortableMexicanSofa.configure do |config|
+ YAML::ENGINE.yamler = 'psych'
   # Title of the admin area
      config.cms_title = 'GminPLUS::Admin'
   

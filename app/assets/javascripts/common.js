@@ -10,7 +10,8 @@ jQuery(document).ready(function($) {
     $(".second").fadeIn();
   });
   $(".second form").live("submit", function(e){
-    $(".first").fadeIn();
+    $(".first").fadeOut();
+    $(".second").fadeOut();
     $("#page").fadeIn();
   });
 });
