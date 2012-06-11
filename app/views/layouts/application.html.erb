@@ -9,15 +9,16 @@
 <body>
 <div id="header">
   <h1> 
-    GMIN PLUS
+    <%= link_to image_tag("/assets/logo.png"), "/" %>
     <span> to projekt nadzorowania wydawania podatków w gminach</span>
   </h1>
 </div>
-<div id="container" class="clearfix">
+<div id="container">
   <%= yield %>
+  <div class="clear"></div>
+  <br/>
+  <br/>
 </div>
-<br/>
-<br/>
 
 </body>
 </html>
