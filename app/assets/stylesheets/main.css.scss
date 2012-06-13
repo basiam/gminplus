@@ -35,9 +35,9 @@ div.cream {
   float: left;
   background-color: $cream;
   padding: 30px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   text-align: justify;
-  line-height: 30px;
+  line-height: 28px;
   width: 480px;
   h3 {
     margin-bottom: 20px;
@@ -67,7 +67,7 @@ div.action{
    color: #000;
    font-weight: bold;
    font-size: 24px;
-   line-height: 30px;
+   line-height: 28px;
   }
   .actions {
     margin-top: 75px;
@@ -80,17 +80,17 @@ div.arrow {
 div.arrow-right {
   margin-top: 120px;
   float: left;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-left: 30px solid $cream;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 20px solid $cream;
 }
 div.arrow-top {
   margin-top: 0px;
   float: right;
   margin-right: 40px;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid $cream;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid $cream;
 }
 .button {
   color: #000;
@@ -121,14 +121,6 @@ div.arrow-top {
   h4 {
     margin-left: 8px;
     margin-top: 10px;
-  }
-  h2 {
-    color: $blue;
-    font-size: 36px;
-    margin-top: 60px;
-    width: 690px;
-    margin-left: 8px;
-    line-height: 40px;
   }
   form {
     margin-top: 30px;
@@ -164,5 +156,39 @@ div.arrow-top {
     text-decoration: none;
     margin-left: 25px;
     float: right;
+  }
+}
+#lastpage {
+  .creamish{
+    background-color: $cream;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    line-height: 28px;
+    p {
+       margin-bottom: 10px;
+    }
+  }
+  h4 {
+    font-size: 24px; 
+    line-height: 28px;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 560px;
+    float: left;
+  }
+  #socialbox {
+    float: right;
+    margin-top: 30px;
+  }
+}
+#superform, #lastpage {
+  h2 {
+    color: $blue;
+    font-size: 36px;
+    margin-top: 60px;
+    width: 690px;
+    margin-left: 8px;
+    line-height: 40px;
   }
 }
