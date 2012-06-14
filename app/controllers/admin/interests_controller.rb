@@ -33,7 +33,7 @@ class Admin::InterestsController < CmsAdmin::BaseController
     @interest.destroy
 
     respond_to do |format|
-      format.html { redirect_to interests_url }
+      format.html { redirect_to admin_interests_url }
       format.json { head :no_content }
     end
   end

@@ -2,6 +2,7 @@ jQuery(document).ready(function($) {
   $("#formlink").live("click", function(e){
     e.preventDefault();
     $("#page").fadeOut();
+    $(".first").fadeOut();
     $(".second").hide();
     $("#superform").fadeIn();
   });
@@ -10,8 +11,6 @@ jQuery(document).ready(function($) {
     $(".second").fadeIn();
   });
   $(".second form").live("submit", function(e){
-    $(".first").fadeOut();
-    $(".second").fadeOut();
-    $("#page").fadeIn();
+    window.location = "/lastpage";
   });
 });

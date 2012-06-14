@@ -1,0 +1,7 @@
+---
+label: lastpage
+layout: application
+parent: index
+target_page: !!null 
+is_published: true
+position: 0
