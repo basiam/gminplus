@@ -6,7 +6,8 @@ jQuery(document).ready(function($) {
     $(".second").hide();
     $("#superform").fadeIn();
   });
-  $(".first form").live("submit", function(e){
+  $("#ff").bind("ajax:success", function(event, data, status, xhr) {
+    $("#fs").attr("action", "/interests/" + data.id);
     $(".first").fadeOut();
     $(".second").fadeIn();
   });
