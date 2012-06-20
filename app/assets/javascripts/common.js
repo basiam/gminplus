@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     $(".first").fadeOut();
     $(".second").fadeIn();
   });
-  $(".second form").live("submit", function(e){
+  $("#fs").bind("ajax:success", function(event, data, status, xhr) {
     window.location = "/lastpage";
   });
 });
