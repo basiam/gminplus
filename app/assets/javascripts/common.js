@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
   $("#formlink").live("click", function(e){
     e.preventDefault();
-    $("#page").fadeOut();
-    $(".first").fadeOut();
+    $("#page").hide();
+    $(".first").fadeIn();
     $(".second").hide();
     $("#superform").fadeIn();
   });
