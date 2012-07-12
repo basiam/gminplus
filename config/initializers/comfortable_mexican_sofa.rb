@@ -3,7 +3,7 @@
 ComfortableMexicanSofa.configure do |config|
   YAML::ENGINE.yamler = 'syck'
   # Title of the admin area
-     config.cms_title = 'GminPLUS::Admin'
+     config.cms_title = 'GminPULS::Admin'
 
   # Module responsible for authentication. You can replace it with your own.
   # It simply needs to have #authenticate method. See http_auth.rb for reference.
