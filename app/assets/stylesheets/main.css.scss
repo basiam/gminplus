@@ -145,7 +145,10 @@ div.arrow-top {
     h3 {
       color: #010101;
       font-weight: bold;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
+    }
+    h3.bigger {
+      font-size: 24px;
     }
     input[type="text"], input[type="email"] {
       height: 40px;
@@ -239,7 +242,7 @@ div.arrow-top {
   }
 }
 
-div.pinky{
+div.pinky {
   float: left;
   background-color: $pink;
   padding: 30px;
@@ -287,12 +290,17 @@ div.pinky-arrow {
 }
 #superform {
   .second {
+    h2 {
+      margin-top: 64px;
+      margin-bottom: 20px;
+    }
     #fs {
-      input {
+      input[type="email"] {
         margin-left: 60px;
       }
       input.active {
         padding: 12px 60px;
+        margin-left: 10px;
       }
     }
   }

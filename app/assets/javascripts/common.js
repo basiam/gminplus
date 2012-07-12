@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
   });
   $("#ff").bind("ajax:success", function(event, data, status, xhr) {
     $("#fs").attr("action", "/interests/" + data.id);
-    $(".first").fadeOut();
+    $(".first").hide();
     $(".second").fadeIn();
   });
   $("#fs").bind("ajax:success", function(event, data, status, xhr) {

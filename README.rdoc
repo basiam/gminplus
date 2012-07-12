@@ -7,4 +7,4 @@
   local:
   rake comfortable_mexican_sofa:fixtures:export FROM=localhost TO=localhost
   heroku:
-  heroku run rake comfortable_mexican_sofa:fixtures:import FROM=localhost TO=gminaplus.herokuapp.com
+  heroku run rake comfortable_mexican_sofa:fixtures:import FROM=localhost TO=gminplus.herokuapp.com
