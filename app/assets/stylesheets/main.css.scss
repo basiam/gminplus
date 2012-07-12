@@ -2,32 +2,42 @@ $cream: #faefc5;
 $blue: #328BD0;
 $baby-blue: #6BC4FF;
 $grey: #ACBDD6;
-body, input{
+$pink: #ffcbc5;
+body, input {
   font-family: 'Lato', sans-serif;
 }
 body {
-  background: #fff; 
+  background: #fff;
   font-size: 18px;
   width: 100%;
   color: #000;
   padding: 0px;
   margin: 0px;
 }
+a {
+ color: $blue;
+}
 div#header {
   border-bottom: 1px solid #000;
+  padding-bottom: 10px;
   h1 {
-   width: 960px; 
-   margin: 70px auto 10px auto;
-   span {
+   width: 960px;
+   margin: 70px auto 0px auto;
+   img {
+     float: left;
+   }
+   div {
+     float: left;
      font-size: 14px;
      font-style: italic;
      margin-left: 15px;
+     width: 210px;
    }
   }
 }
 
 div#container{
- width: 960px; 
+ width: 960px;
  margin: 20px auto;
 }
 div.cream {
@@ -35,7 +45,7 @@ div.cream {
   float: left;
   background-color: $cream;
   padding: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   text-align: justify;
   line-height: 28px;
   width: 480px;
@@ -44,6 +54,10 @@ div.cream {
     margin-top: 20px;
     font-weight: bold;
     font-size: 24px;
+  }
+  h4 {
+    margin-bottom: 10px;
+    margin-top: 15px;
   }
 }
 span.blue {
@@ -55,7 +69,7 @@ div.action{
   margin-top: 115px;
   float: left;
   width: 330px;
-  margin-left: 20px;
+  margin-left: 30px;
   h2 {
    color: $blue;
    font-size: 36px;
@@ -95,18 +109,20 @@ div.arrow-top {
 .button {
   color: #000;
   text-decoration: none;
-  @include border-radius(5px); 
+  display: block;
+  @include border-radius(5px);
   color: #142c41;
 }
 .button.active {
-  padding: 20px 35px;
+  padding: 20px 40px;
   background-color: $baby-blue;
   @include box-shadow($grey 2px 2px 2px, $grey -2px 2px 2px, $grey 2px -2px 2px, $grey -2px -2px 2px);
+  float: left;
 }
 .button.inactive {
   background-color: #dddddd;
   font-size: 14px;
-  margin-left: 50px;
+  float: right;
   margin-top: 20px;
   @include box-shadow(#c6cbd8 2px 2px 2px, #c6cbd8 -2px 2px 2px, #c6cbd8 2px -2px 2px, #c6cbd8 -2px -2px 2px);
   padding: 10px 20px;
@@ -138,11 +154,11 @@ div.arrow-top {
       width: 240px;
       border: 1px solid #647d9a;
       @include box-shadow(#dbdbdb 1px 2px 4px 2px inset, #dbdbdb -1px 2px 4px 2px inset);
-      @include border-radius(5px); 
+      @include border-radius(5px);
       font-size: 18px;
     }
     input[type="submit"] {
-      border: 0px; 
+      border: 0px;
       font-size: 18px;
       font-weight: bold;
       padding: 15px 30px;
@@ -170,7 +186,7 @@ div.arrow-top {
     }
   }
   h4 {
-    font-size: 24px; 
+    font-size: 24px;
     line-height: 28px;
     margin-top: 20px;
     font-weight: bold;
@@ -191,4 +207,51 @@ div.arrow-top {
     margin-left: 8px;
     line-height: 40px;
   }
+}
+
+div.pinky{
+  float: left;
+  background-color: $pink;
+  padding: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: justify;
+  line-height: 26px;
+  width: 280px;
+  font-size: 18px;
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+div.pinky-arrow {
+  margin-top: 10px;
+  float: right;
+  margin-right: 40px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid $pink;
+}
+.shy {
+ display: none;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+
+.ie7 .clearfix {
+	zoom: 1;
+}
+.sharing-widgets {
+  float: left;
+  margin-left: 20px;
+  div.widget {
+    float: left;
+   }
 }

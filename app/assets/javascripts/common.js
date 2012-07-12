@@ -14,4 +14,9 @@ jQuery(document).ready(function($) {
   $("#fs").bind("ajax:success", function(event, data, status, xhr) {
     window.location = "/lastpage";
   });
+
+  $(".nobutton").bind("click", function(e){
+    e.preventDefault();
+    $(".shy").show();
+  });
 });

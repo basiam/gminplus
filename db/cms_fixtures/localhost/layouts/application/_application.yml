@@ -1,5 +1,5 @@
----
+--- 
 label: application
 app_layout: application
-parent: !!null 
+parent: 
 position: 0

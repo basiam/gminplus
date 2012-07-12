@@ -34,4 +34,5 @@ Gmina::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  HOST = "http://gminplus.herokuapp.com"
 end

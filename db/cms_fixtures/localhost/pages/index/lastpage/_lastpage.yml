@@ -1,7 +1,7 @@
----
+--- 
 label: lastpage
 layout: application
 parent: index
-target_page: !!null 
+target_page: 
 is_published: true
 position: 0

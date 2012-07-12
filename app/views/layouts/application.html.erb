@@ -7,11 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div id="header">
+<div id="header" class="clearfix">
   <h1>
     <%= link_to image_tag("/assets/logo.png"), "/" %>
-    <span> to projekt nadzorowania wydawania podatków w gminach</span>
+    <div> to projekt nadzorowania wydawania podatków w gminach</div>
   </h1>
+  <%= render(:partial => "layouts/social") %>
+  <br/>
 </div>
 <div id="container">
   <%= yield %>
