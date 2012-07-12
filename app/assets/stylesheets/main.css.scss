@@ -68,7 +68,7 @@ span.blue {
 div.action{
   margin-top: 115px;
   float: left;
-  width: 330px;
+  width: 333px;
   margin-left: 30px;
   h2 {
    color: $blue;
@@ -149,8 +149,9 @@ div.arrow-top {
     }
     input[type="text"], input[type="email"] {
       height: 40px;
-      padding: 5px;
+      padding: 5px 10px 5px 10px;
       margin-right: 15px;
+      float: left;
       width: 240px;
       border: 1px solid #647d9a;
       @include box-shadow(#dbdbdb 1px 2px 4px 2px inset, #dbdbdb -1px 2px 4px 2px inset);
@@ -202,7 +203,7 @@ div.arrow-top {
   h2 {
     color: $blue;
     font-size: 36px;
-    margin-top: 60px;
+    margin-top: 20px;
     width: 690px;
     margin-left: 8px;
     line-height: 40px;

@@ -1,10 +1,12 @@
 <div id="superform">
-  <div class="first">
+  <div class="first clearfix">
+    <a href="/"><img src="/assets/back.png" class="back" alt="back"/></a>
     <h2>
       Super, bardzo się cieszymy że chcesz się przyłączyć do inicjatywy :-)!
     </h2> 
     <div class="arrow arrow-top">&nbsp</div> 
-    <form action="/interests" method="post" data-remote="true" id="ff">
+    <form action="/interests" method="post" 
+          class="clearfix" data-remote="true" id="ff">
        <h3>Powiedz nam proszę, które gminy Cię interesują</h3>
        <input type="text" required name="interest[zamieszkanie]"  placeholder="gmina zamieszkania"/>
        <input type="text" required name="interest[zameldowanie]" placeholder="gmina zameldowania"/>
