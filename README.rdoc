@@ -3,8 +3,8 @@
 3. go to /cms-admin and create default localhost Site
 3.impoting sites
   rake comfortable_mexican_sofa:fixtures:import FROM=localhost TO=localhost
+  heroku:
+  heroku run rake comfortable_mexican_sofa:fixtures:import FROM=localhost TO=gminpuls.herokuapp.com
 4.exporting sites
   local:
   rake comfortable_mexican_sofa:fixtures:export FROM=localhost TO=localhost
-  heroku:
-  heroku run rake comfortable_mexican_sofa:fixtures:import FROM=localhost TO=gminpuls.herokuapp.com
