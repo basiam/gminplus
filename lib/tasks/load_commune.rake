@@ -15,6 +15,7 @@ namespace :commune do
       end
     end
   end
+  desc 'Mass-Load Commune into database'
   task :massload => :environment do
     doc = Nokogiri::XML(Rails.root.join("db/TERC.xml"))
     communities = doc.search('//rows/row')
