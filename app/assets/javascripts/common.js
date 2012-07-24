@@ -19,4 +19,46 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     $(".shy").show();
   });
+
+
+  $("#ac1").autocomplete({
+    source: function( request, response ) {
+      $.ajax({
+        url: "/communes", dataType: "json",
+        data: { query: request.term },
+        success: function(data) {
+          $("#ac1_b").val('')
+          return response($.map(data, function(item) {
+            return { label: item.name + " (" + item.desc + ")", value: item.id }
+          }));
+        }
+      });
+    },
+    minLength: 2,
+    select: function( event, ui ) {
+      $("#ac1").val(ui.item.label)
+      $("#ac1_b").val(ui.item.value)
+      return false;
+    }
+  });
+  $("#ac2").autocomplete({
+    source: function( request, response ) {
+      $.ajax({
+        url: "/communes", dataType: "json",
+        data: { query: request.term },
+        success: function(data) {
+          $("#ac2_b").val('')
+          return response($.map(data, function(item) {
+            return { label: item.name + " (" + item.desc + ")", value: item.id }
+          }));
+        }
+      });
+    },
+    minLength: 2,
+    select: function( event, ui ) {
+      $("#ac2").val(ui.item.label)
+      $("#ac2_b").val(ui.item.value)
+      return false;
+    }
+  });
 });

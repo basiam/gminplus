@@ -73,6 +73,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.18)
     multi_json (1.3.6)
+    nokogiri (1.5.2)
     paperclip (3.0.4)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
@@ -136,6 +137,7 @@ DEPENDENCIES
   comfortable_mexican_sofa!
   compass-rails (= 1.0.2)
   jquery-rails
+  nokogiri
   pg
   rails (= 3.2.3)
   sass-rails (~> 3.2.5)

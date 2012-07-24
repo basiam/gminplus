@@ -15,8 +15,8 @@
   <tr>
     <td><%= interest.ip %></td>
     <td><%= interest.email %></td>
-    <td><%= interest.zamieszkanie %></td>
-    <td><%= interest.zameldowanie %></td>
+    <td><%= interest.zamieszkanie %>(<%= interest.gmina_zamieszkania.try(:id) %>)</td>
+    <td><%= interest.zameldowanie %>(<%= interest.gmina_zameldowania.try(:id) %>)</td>
     <td><%= link_to 'Show', [:admin, interest] %></td>
     <td><%= link_to 'Edit', edit_admin_interest_path(interest) %></td>
     <td><%= link_to 'Destroy', [:admin, interest], confirm: 'Are you sure?', method: :delete %></td>

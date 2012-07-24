@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">10</col>
+<col name="GMI">09</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Sulejów</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">10</col>
+<col name="GMI">09</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Sulejów</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">10</col>
+<col name="GMI">10</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Wola Krzysztoporska</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">10</col>
+<col name="GMI">11</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Wolbórz</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">10</col>
+<col name="GMI">11</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Wolbórz</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">10</col>
+<col name="GMI">11</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Wolbórz</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI"/>
+<col name="RODZ"/>
+<col name="NAZWA">poddębicki</col>
+<col name="NAZDOD">powiat</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">01</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Dalików</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">02</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Pęczniew</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">03</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Poddębice</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">03</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Poddębice</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">03</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Poddębice</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">04</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Uniejów</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">04</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Uniejów</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">04</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Uniejów</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">05</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Wartkowice</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">11</col>
+<col name="GMI">06</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Zadzim</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI"/>
+<col name="RODZ"/>
+<col name="NAZWA">radomszczański</col>
+<col name="NAZDOD">powiat</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">01</col>
+<col name="RODZ">1</col>
+<col name="NAZWA">Radomsko</col>
+<col name="NAZDOD">gmina miejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">02</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Dobryszyce</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">03</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Gidle</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">04</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Gomunice</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">05</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Kamieńsk</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">05</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Kamieńsk</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">05</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Kamieńsk</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">06</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Kobiele Wielkie</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">07</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Kodrąb</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">08</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Lgota Wielka</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">09</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Ładzice</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">10</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Masłowice</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">11</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Przedbórz</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">11</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Przedbórz</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">11</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Przedbórz</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">12</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Radomsko</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">13</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Wielgomłyny</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">12</col>
+<col name="GMI">14</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Żytno</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI"/>
+<col name="RODZ"/>
+<col name="NAZWA">rawski</col>
+<col name="NAZDOD">powiat</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">01</col>
+<col name="RODZ">1</col>
+<col name="NAZWA">Rawa Mazowiecka</col>
+<col name="NAZDOD">gmina miejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">02</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Biała Rawska</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">02</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Biała Rawska</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">02</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Biała Rawska</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">03</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Cielądz</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">04</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Rawa Mazowiecka</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">05</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Regnów</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">13</col>
+<col name="GMI">06</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Sadkowice</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI"/>
+<col name="RODZ"/>
+<col name="NAZWA">sieradzki</col>
+<col name="NAZDOD">powiat</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">01</col>
+<col name="RODZ">1</col>
+<col name="NAZWA">Sieradz</col>
+<col name="NAZDOD">gmina miejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">02</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Błaszki</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">02</col>
+<col name="RODZ">4</col>
+<col name="NAZWA">Błaszki</col>
+<col name="NAZDOD">miasto</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">02</col>
+<col name="RODZ">5</col>
+<col name="NAZWA">Błaszki</col>
+<col name="NAZDOD">obszar wiejski</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">03</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Brąszewice</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">04</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Brzeźnio</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">05</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Burzenin</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">06</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Goszczanów</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">07</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Klonowa</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">10</col>
+<col name="POW">14</col>
+<col name="GMI">08</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Sieradz</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+</rows>

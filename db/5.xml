@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+<row>
+<col name="WOJ">02</col>
+<col name="POW"/>
+<col name="GMI"/>
+<col name="RODZ"/>
+<col name="NAZWA">DOLNOŚLĄSKIE</col>
+<col name="NAZDOD">województwo</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">02</col>
+<col name="POW">01</col>
+<col name="GMI"/>
+<col name="RODZ"/>
+<col name="NAZWA">bolesławiecki</col>
+<col name="NAZDOD">powiat</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">02</col>
+<col name="POW">01</col>
+<col name="GMI">01</col>
+<col name="RODZ">1</col>
+<col name="NAZWA">Bolesławiec</col>
+<col name="NAZDOD">gmina miejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">02</col>
+<col name="POW">01</col>
+<col name="GMI">02</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Bolesławiec</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">02</col>
+<col name="POW">01</col>
+<col name="GMI">03</col>
+<col name="RODZ">2</col>
+<col name="NAZWA">Gromadka</col>
+<col name="NAZDOD">gmina wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+<row>
+<col name="WOJ">02</col>
+<col name="POW">01</col>
+<col name="GMI">04</col>
+<col name="RODZ">3</col>
+<col name="NAZWA">Nowogrodziec</col>
+<col name="NAZDOD">gmina miejsko-wiejska</col>
+<col name="STAN_NA">2012-05-09</col>
+</row>
+</rows>

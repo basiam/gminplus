@@ -5,7 +5,6 @@ class CreateInterests < ActiveRecord::Migration
       t.string :email
       t.string :zamieszkanie
       t.string :zameldowanie
-
       t.timestamps
     end
   end
