@@ -8,9 +8,9 @@
     <form action="/interests" method="post" 
           class="clearfix" data-remote="true" id="ff">
        <h3>Powiedz nam proszę, które gminy Cię interesują</h3>
-       <input type="text" id="ac1" name="interest[zamieszkanie]"  placeholder="gmina zamieszkania" />
+       <input type="text" id="ac1" name="interest[zamieszkanie]"  placeholder="gmina zamieszkania" class="required"/>
        <input type="hidden" name="interest[zamieszkania_id]" id="ac1_b"/>
-       <input type="text" id="ac2" name="interest[zameldowanie]" placeholder="gmina zameldowania" />
+       <input type="text" id="ac2" name="interest[zameldowanie]" placeholder="gmina zameldowania" class="required"/>
         <input type="hidden" name="interest[zameldowania_id]" id="ac2_b"/>
        <input type="submit" name="submit" class="button active" value="Wysyłam"/>
     </form>
@@ -25,7 +25,7 @@
     <div class="arrow arrow-top">&nbsp</div> 
     <form action="/interests" method="put" data-remote="true" id="fs" class="clearfix">
        <h3 class="bigger">Czy chesz być poinformowany o rozwinieńciu tego projektu?</h3>
-       <input type="email" required name="interest[email]"  placeholder="wpisz swój e-mail"/>  
+       <input type="email" class="required" name="interest[email]"  placeholder="wpisz swój e-mail"/>  
        <input type="submit" name="submit" class="button active" value="Tak, powiadom mnie"/>
     </form>
   </div>

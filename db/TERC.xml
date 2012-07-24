@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rows>
 <row>
 <col name="WOJ">02</col>
 <col name="POW"/>
@@ -37034,3 +37035,4 @@
 <col name="NAZDOD">gmina miejska</col>
 <col name="STAN_NA">2012-05-09</col>
 </row>
+</rows>
