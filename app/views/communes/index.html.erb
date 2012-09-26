@@ -1,0 +1,5 @@
+<ul>
+  <% @communes.each do |item|%>
+    <li><%= item.name + ' (' + item.desc + ')' %></li>
+  <% end %>
+</ul>
