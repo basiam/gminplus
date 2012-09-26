@@ -6,7 +6,6 @@ gem 'jquery-rails'
 gem 'sync'
 gem 'nokogiri'
 
-
 group :development, :test do
   gem 'sqlite3'
 end

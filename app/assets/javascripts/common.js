@@ -81,6 +81,5 @@ function setAutocomolete(id){
       $(id).val(ui.item.label)
       return false;
     }
-
   });
 }
